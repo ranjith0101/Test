@@ -13,5 +13,10 @@ namespace AutomateDeployWeb.Controllers
         {
             return View();
         }
+
+        private int Add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
